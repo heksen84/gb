@@ -23,8 +23,9 @@ class __TwigTemplate_c72b7172e5a16f491712c50647a699aad460b4d9526440160cfe70b0d42
         echo "<div id=\"footer\">
     <div class=\"container\">
         <hr />
+        <h3>реклама на сайте</h3>
         <p class=\"muted credit\">GameBlaster &copy; ";
-        // line 4
+        // line 5
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo "</p>
     </div>
@@ -43,7 +44,7 @@ class __TwigTemplate_c72b7172e5a16f491712c50647a699aad460b4d9526440160cfe70b0d42
 
     public function getDebugInfo()
     {
-        return array (  28 => 4,  23 => 1,);
+        return array (  29 => 5,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -51,6 +52,7 @@ class __TwigTemplate_c72b7172e5a16f491712c50647a699aad460b4d9526440160cfe70b0d42
         return new Twig_Source("<div id=\"footer\">
     <div class=\"container\">
         <hr />
+        <h3>реклама на сайте</h3>
         <p class=\"muted credit\">GameBlaster &copy; {{ \"now\"|date(\"Y\") }}</p>
     </div>
 </div>", "C:\\OSPanel\\domains\\gameblaster/themes/gameblaster/partials/site/footer.htm", "");
