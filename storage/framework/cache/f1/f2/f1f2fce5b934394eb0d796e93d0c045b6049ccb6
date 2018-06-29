@@ -1,14 +1,14 @@
-1530263464a:1:{s:15:"site/footer.htm";a:6:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:213:"==
+1530263638a:1:{s:15:"site/footer.htm";a:6:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:234:"==
 <div id="footer">
     <div class="container">
         <hr />
-        <h3>реклама на сайте</h3>
+        <h5>разместить рекламу на сайте</h5>
         <p class="muted credit">GameBlaster &copy; {{ "now"|date("Y") }}</p>
     </div>
-</div>";s:5:"mtime";i:1530262863;s:6:"markup";s:209:"<div id="footer">
+</div>";s:5:"mtime";i:1530263036;s:6:"markup";s:230:"<div id="footer">
     <div class="container">
         <hr />
-        <h3>реклама на сайте</h3>
+        <h5>разместить рекламу на сайте</h5>
         <p class="muted credit">GameBlaster &copy; {{ "now"|date("Y") }}</p>
     </div>
 </div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
