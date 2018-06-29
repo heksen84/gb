@@ -25,8 +25,13 @@ class __TwigTemplate_3791311cb9267681e422dbe8f1647564ca70d106e5260ad4e0d8f49a052
 <!-- This file is an explanation of the AJAX page -->
 
 <p class=\"lead\">
-    <i class=\"icon-copy\"></i> &nbsp;ps4 info
-</p>";
+       ";
+        // line 6
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("blogPosts2"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 7
+        echo "</p>";
     }
 
     public function getTemplateName()
@@ -34,9 +39,14 @@ class __TwigTemplate_3791311cb9267681e422dbe8f1647564ca70d106e5260ad4e0d8f49a052
         return "C:\\OSPanel\\domains\\gameblaster/themes/gameblaster/partials/explain/ps4.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  23 => 1,);
+        return array (  34 => 7,  30 => 6,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -46,7 +56,7 @@ class __TwigTemplate_3791311cb9267681e422dbe8f1647564ca70d106e5260ad4e0d8f49a052
 <!-- This file is an explanation of the AJAX page -->
 
 <p class=\"lead\">
-    <i class=\"icon-copy\"></i> &nbsp;ps4 info
+       {% component 'blogPosts2' %}
 </p>", "C:\\OSPanel\\domains\\gameblaster/themes/gameblaster/partials/explain/ps4.htm", "");
     }
 }

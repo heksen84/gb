@@ -1,8 +1,32 @@
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = 404
+postPage = 404
+
+[blogPosts blogPosts2]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = 404
+postPage = 404
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = 404
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = 404
 ==
 <hr />
 
 <!-- This file is an explanation of the AJAX page -->
 
 <p class="lead">
-    <i class="icon-copy"></i> &nbsp;ps4 info
+       {% component 'blogPosts2' %}
 </p>
