@@ -10,6 +10,10 @@ $(document).tooltip({
  * Auto hide navbar
  */
 jQuery(document).ready(function($){
+    
+    
+    alert("GameBlaster");
+    
     var $header = $('.navbar-autohide'),
         scrolling = false,
         previousTop = 0,
