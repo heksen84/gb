@@ -1,7 +1,0 @@
-1530185256a:1:{s:8:"feed.htm";a:10:{s:8:"fileName";s:8:"feed.htm";s:7:"content";s:126:"title = "feed"
-url = "/feed"
-layout = "default"
-description = "Все новости подряд"
-is_hidden = 0
-==
-feed";s:5:"mtime";i:1530184649;s:6:"markup";s:4:"feed";s:4:"code";N;s:5:"title";s:4:"feed";s:3:"url";s:5:"/feed";s:6:"layout";s:7:"default";s:11:"description";s:34:"Все новости подряд";s:9:"is_hidden";s:1:"0";}}
