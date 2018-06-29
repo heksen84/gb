@@ -1,4 +1,4 @@
-1530270619a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1688:"description = "Default layout"
+1530271657a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1676:"description = "Default layout"
 
 [blogPosts]
 pageNumber = "{{ :page }}"
@@ -31,8 +31,8 @@ postPage = "blog/post"
         </header>
 
         <!-- Content -->
-        <section id="layout-content">                
-            {% page %}                                    
+        <section id="layout-content">                            
+            {% page %}            
         </section>
 
         <!-- Footer -->
@@ -48,7 +48,7 @@ postPage = "blog/post"
         {% scripts %}
 
     </body>
-</html>";s:5:"mtime";i:1530269265;s:6:"markup";s:1466:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1530271040;s:6:"markup";s:1454:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -71,8 +71,8 @@ postPage = "blog/post"
         </header>
 
         <!-- Content -->
-        <section id="layout-content">                
-            {% page %}                                    
+        <section id="layout-content">                            
+            {% page %}            
         </section>
 
         <!-- Footer -->

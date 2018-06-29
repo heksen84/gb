@@ -36,12 +36,13 @@ class __TwigTemplate_c0ce3b0f82e813d41b4430a1b9d62bea2347a1c52a2876278a82ea74055
     <div class=\"page-header\">
         <h5>Все новости подряд</h5>
     </div>
+    
     ";
-        // line 12
+        // line 13
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("blogPosts"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 13
+        // line 14
         echo "</div>";
     }
 
@@ -57,7 +58,7 @@ class __TwigTemplate_c0ce3b0f82e813d41b4430a1b9d62bea2347a1c52a2876278a82ea74055
 
     public function getDebugInfo()
     {
-        return array (  45 => 13,  41 => 12,  31 => 4,  27 => 3,  23 => 1,);
+        return array (  46 => 14,  42 => 13,  31 => 4,  27 => 3,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -73,6 +74,7 @@ class __TwigTemplate_c0ce3b0f82e813d41b4430a1b9d62bea2347a1c52a2876278a82ea74055
     <div class=\"page-header\">
         <h5>Все новости подряд</h5>
     </div>
+    
     {% component 'blogPosts' %}
 </div>", "C:\\OSPanel\\domains\\gameblaster/themes/gameblaster/pages/home.htm", "");
     }
