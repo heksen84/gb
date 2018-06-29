@@ -12,7 +12,7 @@ $(document).tooltip({
 jQuery(document).ready(function($){
     
     
-    alert("GameBlaster");
+    //alert("GameBlaster");
     
     var $header = $('.navbar-autohide'),
         scrolling = false,
