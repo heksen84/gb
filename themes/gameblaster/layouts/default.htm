@@ -1,4 +1,12 @@
 description = "Default layout"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
 ==
 <!DOCTYPE html>
 <html>
@@ -23,8 +31,8 @@ description = "Default layout"
         </header>
 
         <!-- Content -->
-        <section id="layout-content">
-            {% page %}
+        <section id="layout-content">                
+            {% page %}                                    
         </section>
 
         <!-- Footer -->

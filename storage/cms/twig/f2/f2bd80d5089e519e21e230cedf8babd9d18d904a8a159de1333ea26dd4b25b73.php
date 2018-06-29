@@ -70,12 +70,12 @@ class __TwigTemplate_fcbaef4bf5df717460bc863a285ea700fa3033a81e42ca58d0deb039cd7
         echo "        </header>
 
         <!-- Content -->
-        <section id=\"layout-content\">
+        <section id=\"layout-content\">                
             ";
         // line 25
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 26
-        echo "        </section>
+        echo "                                    
+        </section>
 
         <!-- Footer -->
         <footer id=\"layout-footer\">
@@ -130,7 +130,7 @@ class __TwigTemplate_fcbaef4bf5df717460bc863a285ea700fa3033a81e42ca58d0deb039cd7
 
     public function getDebugInfo()
     {
-        return array (  116 => 39,  112 => 38,  105 => 37,  101 => 36,  97 => 35,  93 => 34,  88 => 31,  84 => 30,  78 => 26,  76 => 25,  70 => 21,  66 => 20,  59 => 15,  56 => 14,  52 => 13,  48 => 12,  44 => 11,  37 => 7,  33 => 6,  29 => 5,  23 => 1,);
+        return array (  116 => 39,  112 => 38,  105 => 37,  101 => 36,  97 => 35,  93 => 34,  88 => 31,  84 => 30,  76 => 25,  70 => 21,  66 => 20,  59 => 15,  56 => 14,  52 => 13,  48 => 12,  44 => 11,  37 => 7,  33 => 6,  29 => 5,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -158,8 +158,8 @@ class __TwigTemplate_fcbaef4bf5df717460bc863a285ea700fa3033a81e42ca58d0deb039cd7
         </header>
 
         <!-- Content -->
-        <section id=\"layout-content\">
-            {% page %}
+        <section id=\"layout-content\">                
+            {% page %}                                    
         </section>
 
         <!-- Footer -->
