@@ -1,0 +1,16 @@
+1530095012a:1:{s:11:"old/404.htm";a:9:{s:8:"fileName";s:11:"old/404.htm";s:7:"content";s:248:"title = "Страница не найдена (404)"
+url = "/404"
+layout = "default"
+is_hidden = 0
+==
+<div class="jumbotron">
+    <div class="container">
+        <h1>нет страницы</h1>
+        <p>Сарян</p>
+    </div>
+</div>";s:5:"mtime";i:1530090613;s:6:"markup";s:141:"<div class="jumbotron">
+    <div class="container">
+        <h1>нет страницы</h1>
+        <p>Сарян</p>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:42:"Страница не найдена (404)";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,51 @@
+title = "PlayStation 4 news"
+url = "/ps4"
+layout = "default"
+is_hidden = 0
+==
+<?php
+function onTest()
+{
+    $value1 = input('value1');
+    $value2 = input('value2');
+    $operation = input('operation');
+
+    switch ($operation) {
+        case '+' :
+            $this['result'] = $value1 + $value2;
+            break;
+        case '-' :
+            $this['result'] = $value1 - $value2;
+            break;
+        case '*' :
+            $this['result'] = $value1 * $value2;
+            break;
+        default :
+            $this['result'] = $value1 / $value2;
+            break;
+    }
+}
+?>
+==
+<div class="jumbotron title-js">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <h1>PlayStation 4</h1>
+                <p>Всё о playstation 4</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+</div>
+
+<!-- Page Explanation -->
+<div class="container">{% partial "explain/ps4.htm" %}</div>
+
+<br />
+
+<div class="text-center">
+    <p><a href="{{ 'xbox'|page }}" class="btn btn-lg btn-default">Continue XBOX</a></p>
+</div>
