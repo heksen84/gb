@@ -1,4 +1,4 @@
-1530617645a:1:{s:9:"error.htm";a:9:{s:8:"fileName";s:9:"error.htm";s:7:"content";s:250:"title = "Error page (500)"
+1530618049a:1:{s:9:"error.htm";a:9:{s:8:"fileName";s:9:"error.htm";s:7:"content";s:250:"title = "Error page (500)"
 url = "/error"
 layout = "default"
 is_hidden = 0
@@ -8,7 +8,7 @@ is_hidden = 0
         <h1>Ошибка</h1>
         <p>Сорян, произошла ошибка 500</p>
     </div>
-</div>";s:5:"mtime";i:1530094020;s:6:"markup";s:167:"<div class="jumbotron">
+</div>";s:5:"mtime";i:1530617439;s:6:"markup";s:167:"<div class="jumbotron">
     <div class="container">
         <h1>Ошибка</h1>
         <p>Сорян, произошла ошибка 500</p>
