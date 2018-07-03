@@ -1,4 +1,4 @@
-1530618022a:1:{s:7:"ps4.htm";a:9:{s:8:"fileName";s:7:"ps4.htm";s:7:"content";s:1154:"title = "PlayStation 4 news"
+1530618276a:1:{s:7:"ps4.htm";a:9:{s:8:"fileName";s:7:"ps4.htm";s:7:"content";s:1154:"title = "PlayStation 4 news"
 url = "/ps4"
 layout = "default"
 is_hidden = 0
@@ -48,7 +48,7 @@ function onTest()
 
 <div class="text-center">
     <p><a href="{{ 'xbox'|page }}" class="btn btn-lg btn-default">Continue XBOX</a></p>
-</div>";s:5:"mtime";i:1530617410;s:6:"markup";s:534:"<div class="jumbotron title-js header">
+</div>";s:5:"mtime";i:1530617649;s:6:"markup";s:534:"<div class="jumbotron title-js header">
     <div class="container">
         <div class="row">
             <div class="col-8">

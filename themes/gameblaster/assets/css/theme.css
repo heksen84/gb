@@ -463,6 +463,8 @@ body {
   padding-top: 70px;
 }
 .header {
-background: rgb(30,30,30);
-color:white;
+    background: rgb(30,30,30);
+}
+.col-8 {
+    color:white;
 }
