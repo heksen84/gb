@@ -441,13 +441,13 @@
 }
 .navbar-inverse .navbar-collapse:not(.in):not(.collapsing) .navbar-nav li.active > a:after,
 .navbar-inverse .navbar-collapse:not(.in):not(.collapsing) .navbar-nav li > a:hover:after {
-  background: red;
+  background: #000000;
 }
 .navbar-inverse .navbar-collapse:not(.in):not(.collapsing) .navbar-nav li.active > a:hover:after {
-  background: red;
+  background: #000000;
 }
 .navbar-inverse .navbar-collapse:not(.in):not(.collapsing) .navbar-nav li > a:hover:after {
-  background: red;
+  background: #e67e22;
 }
 .navbar-default .navbar-collapse:not(.in):not(.collapsing) .navbar-nav li.active > a:after,
 .navbar-default .navbar-collapse:not(.in):not(.collapsing) .navbar-nav li > a:hover:after {
@@ -461,4 +461,8 @@
 }
 body {
   padding-top: 70px;
+}
+.header {
+background: rgb(30,30,30);
+color:white;
 }

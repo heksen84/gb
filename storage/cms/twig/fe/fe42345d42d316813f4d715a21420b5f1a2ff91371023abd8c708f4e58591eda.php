@@ -20,7 +20,7 @@ class __TwigTemplate_66019e19032c66c2756ff0d3e9faf2e165ef1ec6487fd62232be2901607
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"jumbotron title-js\">
+        echo "<div class=\"jumbotron title-js header\">
     <div class=\"container\">
         <div class=\"row\">
             <div class=\"col-8\">
@@ -69,7 +69,7 @@ class __TwigTemplate_66019e19032c66c2756ff0d3e9faf2e165ef1ec6487fd62232be2901607
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"jumbotron title-js\">
+        return new Twig_Source("<div class=\"jumbotron title-js header\">
     <div class=\"container\">
         <div class=\"row\">
             <div class=\"col-8\">

@@ -20,15 +20,19 @@ class __TwigTemplate_c0ce3b0f82e813d41b4430a1b9d62bea2347a1c52a2876278a82ea74055
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"jumbotron\">
+        echo "<div class=\"jumbotron header\">
     <div class=\"container\">
-        ";
-        // line 3
+    <div class=\"row\">
+            <div class=\"col-8\">
+                ";
+        // line 5
         $context['__cms_content_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("welcome.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
-        // line 4
-        echo "    </div>
+        // line 6
+        echo "            </div>
+    </div>
+    </div>
 </div>
 
 <div class=\"container\">
@@ -51,14 +55,18 @@ class __TwigTemplate_c0ce3b0f82e813d41b4430a1b9d62bea2347a1c52a2876278a82ea74055
 
     public function getDebugInfo()
     {
-        return array (  31 => 4,  27 => 3,  23 => 1,);
+        return array (  33 => 6,  29 => 5,  23 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"jumbotron\">
+        return new Twig_Source("<div class=\"jumbotron header\">
     <div class=\"container\">
-        {% content \"welcome.htm\" %}
+    <div class=\"row\">
+            <div class=\"col-8\">
+                {% content \"welcome.htm\" %}
+            </div>
+    </div>
     </div>
 </div>
 
