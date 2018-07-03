@@ -1,5 +1,5 @@
 <?php 
-class Cms5b3b5e51cea44272373070_f0e0d31dae3195ff1b7fb7a1891e61b0Class extends Cms\Classes\PageCode
+class Cms5b3b62bdac542634330453_f53ed207ba7a78f06ef423c68c97cb24Class extends Cms\Classes\PageCode
 {
 public function onTest()
 {
