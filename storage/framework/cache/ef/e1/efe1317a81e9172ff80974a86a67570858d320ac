@@ -1,4 +1,4 @@
-1530619753a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1676:"description = "Default layout"
+1530685626a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1676:"description = "Default layout"
 
 [blogPosts]
 pageNumber = "{{ :page }}"
@@ -48,7 +48,7 @@ postPage = "blog/post"
         {% scripts %}
 
     </body>
-</html>";s:5:"mtime";i:1530271040;s:6:"markup";s:1454:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1530684998;s:6:"markup";s:1454:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">

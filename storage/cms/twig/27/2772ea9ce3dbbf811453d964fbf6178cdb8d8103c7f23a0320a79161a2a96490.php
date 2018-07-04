@@ -37,7 +37,7 @@ class __TwigTemplate_c0ce3b0f82e813d41b4430a1b9d62bea2347a1c52a2876278a82ea74055
 
 <div class=\"container\">
 
-    <div class=\"page-header\">
+    <div class=\"page-header\"  style=\"backgroud:rgb(50,50,50)\">
         <h5>Все новости подряд</h5>
     </div>
 </div>";
@@ -72,7 +72,7 @@ class __TwigTemplate_c0ce3b0f82e813d41b4430a1b9d62bea2347a1c52a2876278a82ea74055
 
 <div class=\"container\">
 
-    <div class=\"page-header\">
+    <div class=\"page-header\"  style=\"backgroud:rgb(50,50,50)\">
         <h5>Все новости подряд</h5>
     </div>
 </div>", "C:\\OSPanel\\domains\\gameblaster/themes/gameblaster/pages/home.htm", "");

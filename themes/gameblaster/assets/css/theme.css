@@ -461,10 +461,14 @@
 }
 body {
   padding-top: 70px;
+  background: rgb(30,30,30);
 }
 .header {
     background: rgb(30,30,30);
 }
 .col-8 {
     color:white;
+}
+#layout-content, .container {
+    background: rgb(30,30,30);
 }
